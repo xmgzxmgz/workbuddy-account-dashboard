@@ -1,0 +1,25 @@
+# 依赖与构建产物
+node_modules/
+.pnp/
+.pnp.js
+
+# 日志
+*.log
+npm-debug.log*
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 不要提交任何本地登录态 / 凭证快照
+*.info
+*.poc
+*.poc.tar.gz
+*.enc
+vault/
+.local/
+
+# 旧打包产物（按需，如自行打包可放开）
+dist/
+target/
+*.dmg

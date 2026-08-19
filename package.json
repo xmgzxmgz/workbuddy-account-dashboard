@@ -1,0 +1,20 @@
+{
+  "name": "workbuddy-account-dashboard",
+  "version": "1.0.0",
+  "description": "WorkBuddy 账户全景仪表盘（本地调试 / 只读本机登录态）",
+  "type": "module",
+  "bin": {
+    "workbuddy-dashboard": "debug-server.mjs"
+  },
+  "scripts": {
+    "start": "node debug-server.mjs",
+    "quota": "node credits-api.js quota",
+    "checkin": "node credits-api.js checkin",
+    "status": "node credits-api.js status"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "keywords": ["workbuddy", "codebuddy", "dashboard", "billing", "quota"]
+}
